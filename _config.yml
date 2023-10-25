@@ -22,7 +22,7 @@ github_username:  Clayton-Toste
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: Midnight
 plugins:
   - jekyll-feed
 
