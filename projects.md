@@ -30,8 +30,6 @@ Jello is a program made for CS185 that simulates jellow physics with crosshatchi
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/CS184-final-jello/tree/master">Github</a>
 </p>
-<a href="https://github.com/Clayton-Toste/Surface-Anaysis/tree/master">Github</a>
-</p>
 
 
 <br>
@@ -45,6 +43,8 @@ Jello is a program made for CS185 that simulates jellow physics with crosshatchi
 Surface Analysis is I made for analysis the patchs of hydrophobicity and charge of the surface proteins. Created Ting Xu Lab.
 </p>
 <p align=middle>
+<a href="https://github.com/Clayton-Toste/Surface-Anaysis/tree/master">Github</a>
+</p>
 
 <br>
 <p align=middle>
