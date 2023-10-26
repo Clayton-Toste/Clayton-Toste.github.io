@@ -38,7 +38,6 @@ Mole Game is a small game I made for Mole day in high school. Dig down to collec
   <img src="jello.gif" width=200>
 </p>
 <p align=middle>
-
 A program made for CS185 that simulates jellow physics with crosshatching shading. Runs on the GPU for increased performance.
 </p>
 <p align=middle>
