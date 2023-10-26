@@ -2,4 +2,4 @@
 layout: page
 ---
 
-<img src="Screenshot.png">
+<img src="Screenshot.png" width="500">
