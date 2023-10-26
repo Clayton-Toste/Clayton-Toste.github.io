@@ -16,19 +16,6 @@ Pipe Game is a small game made for a one week game jam. Try to pipe the steam to
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/PipeGame">Github</a>
 </p>
-<br>
-<p align=middle>
-  <h2>Mole Game</h2>
-</p>
-<p align=middle>
-  <img src="molegame.png" width=200>
-</p>
-<p align=middle>
-Mole Game is a small game I made for Mole day in high school. Dig down to collect proton and protons and neutrols to build heavier isotopes while avoiding darkmatter.
-</p>
-<p align=middle>
-<a href="https://github.com/Clayton-Toste/Mole/tree/master">Github</a>
-</p>
 
 <br>
 <p align=middle>
@@ -43,3 +30,18 @@ A program made for CS185 that simulates jellow physics with crosshatching shadin
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/CS184-final-jello/tree/master">Github</a>
 </p>
+
+<br>
+<p align=middle>
+  <h2>Mole Game</h2>
+</p>
+<p align=middle>
+  <img src="molegame.png" width=200>
+</p>
+<p align=middle>
+Mole Game is a small game I made for Mole day in high school. Dig down to collect proton and protons and neutrols to build heavier isotopes while avoiding darkmatter.
+</p>
+<p align=middle>
+<a href="https://github.com/Clayton-Toste/Mole/tree/master">Github</a>
+</p>
+
