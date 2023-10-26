@@ -1,3 +1,9 @@
+---
+layout: page
+title: Educaton
+permalink: /education/
+---
+
 <h2>UC Berkeley - GPA: 3.97</h2>
 <ul>
   <li>CS184	- Foundations of Computer Graphics</li>
