@@ -21,7 +21,7 @@ Pipe Game is a small game made for a one week game jam. Try to pipe the steam to
   <h>Mole Game</h>
 </p>
 <p align=middle>
-  <img src="molegame.png" width=500>
+  <img src="molegame.png" width=200>
 </p>
 <p align=middle>
 Mole Game is a small game I made for Mole day in high school. Dig down to collect proton and protons and neutrols to build heavier isotopes while avoiding darkmatter.
