@@ -29,3 +29,18 @@ Mole Game is a small game I made for Mole day in high school. Dig down to collec
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/Mole/tree/master">Github</a>
 </p>
+
+<br>
+<p align=middle>
+  <h2>CS184 Final: Jello</h2>
+</p>
+<p align=middle>
+  <img src="jello.gif" width=200>
+</p>
+<p align=middle>
+
+A program made for CS185 that simulates jellow physics with crosshatching shading. Runs on the GPU for increased performance.
+</p>
+<p align=middle>
+<a href="https://github.com/Clayton-Toste/CS184-final-jello/tree/master">Github</a>
+</p>
