@@ -31,6 +31,17 @@ Jello is a program made for CS185 that simulates jellow physics with crosshatchi
 <a href="https://github.com/Clayton-Toste/CS184-final-jello/tree/master">Github</a>
 </p>
 
+<br>
+<p align=middle>
+  <h2>Shape-Guided Diffusionwith Inside-Outside Attention</h2>
+</p>
+<p align=middle>
+Shape-Guided diffusion is a paper I co-published as third author under Seth Park in Professor Trevor Darrel's lab.
+</p>
+<p align=middle>
+<a href="
+https://shape-guided-diffusion.github.io/">Github</a>
+</p>
 
 <br>
 <p align=middle>
