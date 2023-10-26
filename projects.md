@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 <p align=middle>
-  <big>Pipe Game</big>
+  <h2>Pipe Game</h2>
 </p>
 <p align=middle>
   <img src="pipegame.png" width=500>
@@ -18,7 +18,7 @@ Pipe Game is a small game made for a one week game jam. Try to pipe the steam to
 </p>
 <br>
 <p align=middle>
-  <title>Mole Game</title>
+  <h2>Mole Game</h2>
 </p>
 <p align=middle>
   <img src="molegame.png" width=200>
