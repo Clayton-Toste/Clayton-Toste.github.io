@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 <p align=middle>
-  Pipe Game
+  <h>Pipe Game</h>
 </p>
 <p align=middle>
   <img src="pipegame.png" width=500 title=PipeGame">
