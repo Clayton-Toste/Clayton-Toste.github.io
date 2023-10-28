@@ -11,7 +11,7 @@ permalink: /projects/
   <img src="../pipegame.png" width=500>
 </p>
 <p align=middle>
-Pipe Game is a small game made for a one week game jam. Try to pipe the steam to the houses that need it before they blow up!
+Pipe Game is a small game made in unity for a one week game jam. Try to pipe the steam to the houses that need it before they blow up!
 </p>
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/PipeGame">Github</a>
@@ -25,7 +25,7 @@ Pipe Game is a small game made for a one week game jam. Try to pipe the steam to
   <img src="../jello.gif" width=400>
 </p>
 <p align=middle>
-Jello is a program made for CS185 that simulates jellow physics with crosshatching shading. Runs on the GPU for increased performance.
+Jello is a program made for CS185 that simulates jellow physics with crosshatching shading. Runs on the GPU using Vulkan for increased performance.
 </p>
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/CS184-final-jello/tree/master">Github</a>
@@ -39,7 +39,7 @@ Jello is a program made for CS185 that simulates jellow physics with crosshatchi
   <img src="../SGD.png" width=600>
 </p>
 <p align=middle>
-Shape-Guided diffusion is a paper I co-published as third author under Seth Park in Professor Trevor Darrell's lab.
+Shape-Guided Diffusion is a paper I co-published as third author under Seth Park in Professor Trevor Darrell's lab. The paper proposes a new method for object replacement that considers the shape of the original object.
 </p>
 <p align=middle>
 <a href="https://shape-guided-diffusion.github.io/">Website</a>
@@ -53,7 +53,7 @@ Shape-Guided diffusion is a paper I co-published as third author under Seth Park
   <img src="../SA.png" width=400>
 </p>
 <p align=middle>
-Surface Analysis is I made for analysis the patchs of hydrophobicity and charge of the surface proteins. Created Ting Xu Lab.
+Surface Analysis is a program I made in C++ that interfaces with PyMol's python apt to analyse patchs of hydrophobicity and charge of the surface proteins. Created for Ting Xu Lab.
 </p>
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/Surface-Anaysis/tree/master">Github</a>
@@ -67,7 +67,7 @@ Surface Analysis is I made for analysis the patchs of hydrophobicity and charge 
   <img src="../molegame.png" width=200>
 </p>
 <p align=middle>
-Mole Game is a small game I made for Mole day in high school. Dig down to collect proton and protons and neutrols to build heavier isotopes while avoiding darkmatter.
+Mole Game is a small game I made using SDL to celebrate Mole day. Dig down to collect proton and protons and neutrols to build heavier isotopes while avoiding darkmatter.
 </p>
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/Mole/tree/master">Github</a>
