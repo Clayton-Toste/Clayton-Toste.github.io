@@ -36,7 +36,7 @@ Jello is a program made for CS184 that simulates jellow physics with crosshatchi
   <h2>Deblurred Diffusion</h2>
 </p>
 <p align=middle>
-  <img src="../deblurr.png" width=600>
+  <img src="../deblur.png" width=600>
 </p>
 <p align=middle>
 Deblurring Diffision is a technique I invented to improve current diffusion networks while working in the Gordon Lab at Stanford. It works by applying a filter to the noise in latent space to create a less blurry image
