@@ -22,7 +22,7 @@ Pipe Game is a small game made for a one week game jam. Try to pipe the steam to
   <h2>CS184 Final: Jello</h2>
 </p>
 <p align=middle>
-  <img src="../jello.gif" width=200>
+  <img src="../jello.gif" width=400>
 </p>
 <p align=middle>
 Jello is a program made for CS185 that simulates jellow physics with crosshatching shading. Runs on the GPU for increased performance.
@@ -36,7 +36,7 @@ Jello is a program made for CS185 that simulates jellow physics with crosshatchi
   <h2>Shape-Guided Diffusion with Inside-Outside Attention</h2>
 </p>
 <p align=middle>
-  <img src="../SGD.png" width=200>
+  <img src="../SGD.png" width=600>
 </p>
 <p align=middle>
 Shape-Guided diffusion is a paper I co-published as third author under Seth Park in Professor Trevor Darrell's lab.
