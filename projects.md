@@ -25,7 +25,7 @@ Pipe Game is a small game made in unity for a one week game jam. Try to pipe the
   <img src="../jello.gif" width=400>
 </p>
 <p align=middle>
-Jello is a program made for CS185 that simulates jellow physics with crosshatching shading. Runs on the GPU using Vulkan for increased performance.
+Jello is a program made for CS184 that simulates jellow physics with crosshatching shading. Runs on the GPU using Vulkan for increased performance.
 </p>
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/CS184-final-jello/tree/master">Github</a>
