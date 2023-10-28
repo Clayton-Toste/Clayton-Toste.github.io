@@ -36,11 +36,13 @@ Jello is a program made for CS185 that simulates jellow physics with crosshatchi
   <h2>Shape-Guided Diffusion with Inside-Outside Attention</h2>
 </p>
 <p align=middle>
+  <img src="../SGD.png" width=200>
+</p>
+<p align=middle>
 Shape-Guided diffusion is a paper I co-published as third author under Seth Park in Professor Trevor Darrell's lab.
 </p>
 <p align=middle>
-<a href="
-https://shape-guided-diffusion.github.io/">Website</a>
+<a href="https://shape-guided-diffusion.github.io/">Website</a>
 </p>
 
 <br>
