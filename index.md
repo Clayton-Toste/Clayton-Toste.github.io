@@ -8,8 +8,11 @@ layout: page
 </p>
 <p align=middle>
   Hi, I'm Kali Toste (She/her), currently I'm a sophemore at UC Berkeley working towards my Computer Science BS. I have experience in Computer Graphics, Game Design and Development and Machine Learning. I am currently looking for summer internships.
+<a align=middle href="/education">Education</a>
+<a align=middle href="/projects">Projects</a>
+<a align=middle href="/resume">Resume</a>
 </p>
 
-<a align=middle href="/education">Education</a>
+
 
 
