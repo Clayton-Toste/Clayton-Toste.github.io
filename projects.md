@@ -5,6 +5,16 @@ permalink: /projects/
 ---
 
 <p align=middle>
+  <h2>Home for Anderson</h2>
+</p>
+<p align=middle>
+  <img src="../gameplay.png" width=500>
+</p>
+<p align=middle>
+Home for Anderson is puzzle game made in unity. Control gems with unique powers to get solve puzzles and find a home for Anderson! Home for Anderson is still in development and does not have a public release
+</p>
+
+<p align=middle>
   <h2>Pipe Game</h2>
 </p>
 <p align=middle>
