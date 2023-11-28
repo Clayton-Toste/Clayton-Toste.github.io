@@ -13,6 +13,9 @@ permalink: /projects/
 <p align=middle>
 Home for Anderson is puzzle game made in unity. Control gems with unique powers to get solve puzzles and find a home for Anderson! Home for Anderson is still in development and does not have a public release
 </p>
+<p align=middle>
+<iframe frameborder="0" src="https://itch.io/embed/2390986" width="552" height="167"><a href="https://pragma-twice.itch.io/homeforanderson">Home for Anderson by Pragma-Twice</a></iframe>
+</p>
 
 <p align=middle>
   <h2>Pipe Game</h2>
