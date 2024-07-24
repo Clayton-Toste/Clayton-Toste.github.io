@@ -4,8 +4,11 @@ title: Projects
 permalink: /projects/
 ---
 
+1. toc
+{:toc}
+
 <p align=middle>
-  <h2>Home for Anderson</h2>
+  <h2 id="Anderson">Home for Anderson</h2>
 </p>
 <p align=middle>
   <img src="../gameplay.png" width=500>
