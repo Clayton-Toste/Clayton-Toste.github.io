@@ -11,7 +11,7 @@ permalink: /projects/
   <img src="../gameplay.png" width=500>
 </p>
 <p align=middle>
-Home for Anderson is puzzle game made in unity. Control gems with unique powers to get solve puzzles and find a home for Anderson! Home for Anderson is still in development and does not have a public release
+Home for Anderson is puzzle game made in Unity. Control gems with unique powers to get solve puzzles and find a home for Anderson! Home for Anderson is still in development and does not have a public release
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2390986" width="552" height="167"><a href="https://pragma-twice.itch.io/homeforanderson">Home for Anderson by Pragma-Twice</a></iframe>
@@ -77,7 +77,7 @@ Shape-Guided Diffusion is a paper I co-published as third author under Seth Park
   <img src="../SA.png" width=400>
 </p>
 <p align=middle>
-Surface Analysis is a program I made in C++ that interfaces with PyMol's python apt to analyse patchs of hydrophobicity and charge of the surface proteins. Created for Ting Xu Lab.
+Surface Analysis is a program I made in C++ that interfaces with PyMol's python API to analyze patchs of hydrophobicity and charge of the surface proteins. Created for Ting Xu Lab.
 </p>
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/Surface-Anaysis/tree/master">Github</a>
