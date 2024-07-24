@@ -3,9 +3,9 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-
-1. toc
-{:toc}
+{::options toc_levels="2,3" /}
+1. anderson
+{:anderson}
 
 <p align=middle>
   <h2 id="anderson">Home for Anderson</h2>
