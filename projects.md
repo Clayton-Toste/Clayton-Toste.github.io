@@ -5,15 +5,15 @@ permalink: /projects/
 ---
 
 
+<h2>Table Contents</h2>
 <ul>
-  <li href="#anderson">Home for Anderson</li>
-  <li href="#pipe">Pipe Game</li>
-  <li href="#jello">CS184 Final: Jello</li>
-  <li href="#deblurred">Deblurred Diffusion</li>
-  <li href="#shape">Shape-Guided Diffusion with Inside-Outside Attentiono</li>
-  <li href="#sa">Surface Analysis</li>
-  <li href="#mole">Mole Game</li>
-  
+  <li><a href="#anderson">Home for Anderson</a></li>
+  <li><a href="#pipe">Pipe Game</a></li>
+  <li><a href="#jello">CS184 Final: Jello</a></li>
+  <li><a href="#deblurred">Deblurred Diffusion</a></li>
+  <li><a href="#shape">Shape-Guided Diffusion with Inside-Outside Attentiono</a></li>
+  <li><a href="#sa">Surface Analysis</a></li>
+  <li><a href="#mole">Mole Game</a></li>
 </ul>  
 
 
