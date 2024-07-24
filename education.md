@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Educaton
+title: Education
 permalink: /education/
 ---
 
