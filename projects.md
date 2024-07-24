@@ -4,6 +4,7 @@ title: Projects
 permalink: /projects/
 toc: true
 ---
+{{ content | toc }}
 
 <p align=middle>
   <h2 id="anderson">Home for Anderson</h2>
