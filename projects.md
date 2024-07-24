@@ -91,7 +91,7 @@ Surface Analysis is a program I made in C++ that interfaces with PyMol's python 
   <img src="../molegame.png" width=200>
 </p>
 <p align=middle>
-Mole Game is a small game I made using SDL to celebrate Mole day. Dig down to collect proton and protons and neutrols to build heavier isotopes while avoiding darkmatter.
+Mole Game is a small game I made using SDL to celebrate Mole day. Dig down to collect protons and neutrons to build heavier isotopes while avoiding darkmatter.
 </p>
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/Mole/tree/master">Github</a>
