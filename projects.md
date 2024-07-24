@@ -2,9 +2,20 @@
 layout: page
 title: Projects
 permalink: /projects/
-toc: true
 ---
-{{ content | toc }}
+
+
+<ul>
+  <li href="#anderson">Home for Anderson</li>
+  <li href="#pipe">Pipe Game</li>
+  <li href="#jello">CS184 Final: Jello</li>
+  <li href="#deblurred">Deblurred Diffusion</li>
+  <li href="#shape">Shape-Guided Diffusion with Inside-Outside Attentiono</li>
+  <li href="#sa">Surface Analysis</li>
+  <li href="#mole">Mole Game</li>
+  
+</ul>  
+
 
 <p align=middle>
   <h2 id="anderson">Home for Anderson</h2>
@@ -34,7 +45,7 @@ Pipe Game is a small game made in unity for a one week game jam. Try to pipe the
 
 <br>
 <p align=middle>
-  <h2 id='jello">CS184 Final: Jello</h2>
+  <h2 id="jello">CS184 Final: Jello</h2>
 </p>
 <p align=middle>
   <img src="../jello.gif" width=400>
