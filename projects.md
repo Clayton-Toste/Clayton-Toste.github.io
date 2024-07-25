@@ -21,6 +21,7 @@ classes: wide
 <div class="column1">
 <h2>Table Contents</h2>
 <ul>
+  <li><a href="#sandlocked">Sandlocked</a></li>
   <li><a href="#anderson">Home for Anderson</a></li>
   <li><a href="#pipe">Pipe Game</a></li>
   <li><a href="#jello">CS184 Final: Jello</a></li>
@@ -32,6 +33,18 @@ classes: wide
 </div>
 
 <div class="column2">
+<p align=middle>
+  <h2 id="sandlocked" align=middle>Sandlocked</h2>
+</p>
+<p align=middle>
+  <img src="../gameplay2.png" width=500>
+</p>
+<p align=middle>
+Sandlocked is puzzle game
+</p>
+<p align=middle>
+<iframe frameborder="0" src="https://itch.io/embed/2843541" width="552" height="167"><a href="https://pragma-twice.itch.io/sandlocked">Sandlocked by Pragma-Twice, nikkudo, TheCoolGameDev, jinjk, MillerHollinger</a></iframe></p>
+  
 <p align=middle>
   <h2 id="anderson" align=middle>Home for Anderson</h2>
 </p>
