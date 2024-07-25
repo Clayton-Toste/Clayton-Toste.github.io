@@ -6,6 +6,9 @@ classes: wide
 ---
 
 <style type="text/css">
+.wrapper {
+  max-width: 90%;
+}
 .column1 {
   width: 25%;
   margin-right: 75%;
