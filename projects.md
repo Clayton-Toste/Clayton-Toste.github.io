@@ -4,8 +4,18 @@ title: Projects
 permalink: /projects/
 ---
 
+<style type="text/css">
+.row {
+  display: flex;
+}
 
-<div width="50%">
+.column {
+  flex: 50%;
+}
+</style>
+
+<div class="row">
+<div class="column">
 <h2>Table Contents</h2>
 <ul>
   <li><a href="#anderson">Home for Anderson</a></li>
@@ -18,7 +28,7 @@ permalink: /projects/
 </ul>  
 </div>
 
-<div width="50%">
+<div class="column">
 <p align=middle>
   <h2 id="anderson">Home for Anderson</h2>
 </p>
@@ -111,5 +121,6 @@ Mole Game is a small game I made using SDL to celebrate Mole day. Dig down to co
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/Mole/tree/master">Github</a>
 </p>
+</div>
 </div>
 
