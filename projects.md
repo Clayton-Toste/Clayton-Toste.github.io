@@ -8,13 +8,13 @@ classes: wide
 <style type="text/css">
 .column1 {
   width: 25%;
-  align: left;
+  margin-right: 75%;
   position: fixed;
 }
   
 .column2 {
   width: 75%;
-  align: right;
+  margin-left: 25%;
 }
 </style>
 
