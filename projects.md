@@ -12,12 +12,11 @@ classes: wide
 
 .column {
   flex: 50%;
-  overflow:scroll;
 }
 </style>
 
 <div class="row">
-<div class="column">
+<div class="column" overflow="scorll" height="1000">
 <h2>Table Contents</h2>
 <ul>
   <li><a href="#anderson">Home for Anderson</a></li>
