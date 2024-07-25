@@ -40,7 +40,7 @@ classes: wide
   <img src="../gameplay2.png" width=500>
 </p>
 <p align=middle>
-Sandlocked is puzzle game
+Sandlocked is a puzzle game developed in Unity. The game features a custom sand physics engine using cellular automata and marching squares. Additionally, it implements a custom version of A* pathfinding that allows for finding the shortest path without adhering to a grid.
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2843541" width="552" height="167"><a href="https://pragma-twice.itch.io/sandlocked">Sandlocked by Pragma-Twice, nikkudo, TheCoolGameDev, jinjk, MillerHollinger</a></iframe></p>
@@ -52,7 +52,7 @@ Sandlocked is puzzle game
   <img src="../gameplay.png" width=500>
 </p>
 <p align=middle>
-Home for Anderson is puzzle game made in Unity. Control gems with unique powers to get solve puzzles and find a home for Anderson! Home for Anderson is still in development and does not have a public release
+Home for Anderson is a puzzle game made in Unity. The game uses the Unity NavMesh system for movement and a custom collision system for a water-freezing mechanic.
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2390986" width="552" height="167"><a href="https://pragma-twice.itch.io/homeforanderson">Home for Anderson by Pragma-Twice</a></iframe>
