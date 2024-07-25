@@ -38,7 +38,7 @@ classes: wide
 </div>
 
 <div class="column2">
-<p align=middle><i>
+<p align=middle>
   <h2 id="sandlocked" align=middle><i>Sandlocked</i></h2>
 </p>
 <p align=middle>
@@ -56,7 +56,7 @@ Sandlocked is a puzzle game developed in Unity. Solve puzzles by controling a sa
 <p align=middle>
   <img src="../gameplay.png" width=500>
 </p>
-<p align=middle><i>
+<p align=middle>
 Home for Anderson is a puzzle game made in Unity. Control multiple gems as you use their unique abilies to traverse the cave. The game uses the Unity NavMesh system for movement and a custom collision system for a water-freezing mechanic.
 </p>
 <p align=middle>
