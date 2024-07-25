@@ -22,7 +22,7 @@ classes: wide
 </style>
 
 <div class="column1">
-<h2>Table Contents</i></h2>
+<h2>Table Contents/h2>
 <ul>
   <li><a href="#sandlocked">Sandlocked</a></li>
   <li><a href="#anderson">Home for Anderson</a></li>
