@@ -6,21 +6,18 @@ classes: wide
 ---
 
 <style type="text/css">
-.row {
-  display: flex;
-}
-
 .column1 {
-  flex: 50%;
+  width: 25%;
+  align: left;
   position: fixed;
 }
   
 .column2 {
-  flex: 50%;
+  width: 75%;
+  align: right;
 }
 </style>
 
-<div class="row">
 <div class="column1">
 <h2>Table Contents</h2>
 <ul>
@@ -127,6 +124,5 @@ Mole Game is a small game I made using SDL to celebrate Mole day. Dig down to co
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/Mole/tree/master">Github</a>
 </p>
-</div>
 </div>
 
