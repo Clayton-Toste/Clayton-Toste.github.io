@@ -128,7 +128,7 @@ Deblurring Diffision is a technique I invented to improve current diffusion netw
   <img src="../SGD.png" width=600>
 </p>
 <p align=middle>
-Shape-Guided Diffusion is a paper I co-published as third author under Seth Park in Professor Trevor Darrell's lab. The paper proposes a new method for object replacement that considers the shape of the original object.
+Shape-Guided Diffusion is a paper I co-published as third author with Seth Park in Professor Trevor Darrell's lab. The paper proposes a new method for object replacement that considers the shape of the original object.
 </p>
 <p align=middle>
 <a href="https://shape-guided-diffusion.github.io/">Website</a>
