@@ -12,11 +12,11 @@ classes: wide
 
 .column1 {
   flex: 50%;
+  position: fixed;
 }
   
 .column2 {
   flex: 50%;
-  position: fixed;
 }
 </style>
 
