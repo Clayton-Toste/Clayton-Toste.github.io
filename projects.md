@@ -26,7 +26,7 @@ classes: wide
   <li><a href="#pipe">Pipe Game</a></li>
   <li><a href="#jello">CS184 Final: Jello</a></li>
   <li><a href="#deblurred">Deblurred Diffusion</a></li>
-  <li><a href="#shape">Shape-Guided Diffusion with Inside-Outside Attentiono</a></li>
+  <li><a href="#shape">Shape-Guided Diffusion</a></li>
   <li><a href="#sa">Surface Analysis</a></li>
   <li><a href="#mole">Mole Game</a></li>
 </ul>  
