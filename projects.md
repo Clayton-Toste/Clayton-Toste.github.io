@@ -11,6 +11,7 @@ permalink: /projects/
 
 .column {
   flex: 50%;
+  overflow:scroll;
 }
 </style>
 
