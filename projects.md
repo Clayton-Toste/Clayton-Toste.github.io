@@ -43,7 +43,7 @@ classes: wide
   <img src="../gameplay2.png" width=500>
 </p>
 <p align=middle>
-Sandlocked is a puzzle game developed in Unity. The game features a custom sand physics engine using cellular automata and marching squares. Additionally, it implements a custom version of A* pathfinding that allows for finding the shortest path without adhering to a grid.
+Sandlocked is a puzzle game developed in Unity. Solve puzzles by controling a sand-moving drone and wrench weilding mechanic. The game features a custom sand physics engine using cellular automata and marching squares. Additionally, it implements a custom version of A* pathfinding that allows for finding the shortest path without adhering to a grid.
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2843541" width="552" height="167"><a href="https://pragma-twice.itch.io/sandlocked">Sandlocked by Pragma-Twice, nikkudo, TheCoolGameDev, jinjk, MillerHollinger</a></iframe></p>
@@ -55,11 +55,23 @@ Sandlocked is a puzzle game developed in Unity. The game features a custom sand 
   <img src="../gameplay.png" width=500>
 </p>
 <p align=middle>
-Home for Anderson is a puzzle game made in Unity. The game uses the Unity NavMesh system for movement and a custom collision system for a water-freezing mechanic.
+Home for Anderson is a puzzle game made in Unity. Control multiple gems as you use their unique abilies to traverse the cave. The game uses the Unity NavMesh system for movement and a custom collision system for a water-freezing mechanic.
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2390986" width="552" height="167"><a href="https://pragma-twice.itch.io/homeforanderson">Home for Anderson by Pragma-Twice</a></iframe>
 </p>
+
+<p align=middle>
+  <h2 id="sanchari" align=middle>Sanchari</h2>
+</p>
+<p align=middle>
+  <img src="../gameplay3.png" width=500>
+</p>
+<p align=middle>
+Sanchari is a rythem game based on Indian mythology. Game features a system for creating song maps. 
+</p>
+<p align=middle>
+<iframe frameborder="0" src="https://itch.io/embed/2608498" width="552" height="167"><a href="https://pragma-twice.itch.io/sanchari">Sanchari by Pragma-Twice, jinjk, sword0fkas</a></iframe>
 
 <p align=middle>
   <h2 id="pipe" align=middl>Pipe Game</h2>
@@ -68,7 +80,7 @@ Home for Anderson is a puzzle game made in Unity. The game uses the Unity NavMes
   <img src="../pipegame.png" width=500>
 </p>
 <p align=middle>
-Pipe Game is a small game made in unity for a one week game jam. Try to pipe the steam to the houses that need it before they blow up!
+Pipe Game is a small highscore-based game made in unity for a one week game jam. Try to pipe the steam to the houses that need it before they blow up. Pipe Game feature the unity particles system.
 </p>
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/PipeGame">Github</a>
