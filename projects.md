@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: page
 title: Projects
 permalink: /projects/
+classes: wide
 ---
 
 <style type="text/css">
