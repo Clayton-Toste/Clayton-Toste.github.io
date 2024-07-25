@@ -162,4 +162,3 @@ Mole Game is a small game I made using SDL to celebrate Mole day. Dig down to co
 <a href="https://github.com/Clayton-Toste/Mole/tree/master">Github</a>
 </p>
 </div>
-
