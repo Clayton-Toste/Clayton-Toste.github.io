@@ -10,13 +10,18 @@ classes: wide
   display: flex;
 }
 
-.column {
+.column1 {
   flex: 50%;
+}
+  
+.column2 {
+  flex: 50%;
+  position: fixed;
 }
 </style>
 
 <div class="row">
-<div class="column" overflow="scorll" height="1000">
+<div class="column1">
 <h2>Table Contents</h2>
 <ul>
   <li><a href="#anderson">Home for Anderson</a></li>
@@ -29,7 +34,7 @@ classes: wide
 </ul>  
 </div>
 
-<div class="column">
+<div class="column2">
 <p align=middle>
   <h2 id="anderson">Home for Anderson</h2>
 </p>
