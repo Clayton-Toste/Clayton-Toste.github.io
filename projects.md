@@ -33,7 +33,7 @@ classes: wide
 
 <div class="column2">
 <p align=middle>
-  <h2 id="anderson">Home for Anderson</h2>
+  <h2 id="anderson" align=middle>Home for Anderson</h2>
 </p>
 <p align=middle>
   <img src="../gameplay.png" width=500>
@@ -46,7 +46,7 @@ Home for Anderson is puzzle game made in Unity. Control gems with unique powers 
 </p>
 
 <p align=middle>
-  <h2 id="pipe">Pipe Game</h2>
+  <h2 id="pipe" align=middl>Pipe Game</h2>
 </p>
 <p align=middle>
   <img src="../pipegame.png" width=500>
@@ -60,7 +60,7 @@ Pipe Game is a small game made in unity for a one week game jam. Try to pipe the
 
 <br>
 <p align=middle>
-  <h2 id="jello">CS184 Final: Jello</h2>
+  <h2 id="jello" align=middl>CS184 Final: Jello</h2>
 </p>
 <p align=middle>
   <img src="../jello.gif" width=400>
@@ -74,7 +74,7 @@ Jello is a program made for CS184 that simulates jellow physics with crosshatchi
 
 <br>
 <p align=middle>
-  <h2 id="deblurred">Deblurred Diffusion</h2>
+  <h2 id="deblurred" align=middl>Deblurred Diffusion</h2>
 </p>
 <p align=middle>
   <img src="../deblur.png" width=600>
@@ -85,7 +85,7 @@ Deblurring Diffision is a technique I invented to improve current diffusion netw
 
 <br>
 <p align=middle>
-  <h2 id="shape">Shape-Guided Diffusion with Inside-Outside Attention</h2>
+  <h2 id="shape" align=middl>Shape-Guided Diffusion with Inside-Outside Attention</h2>
 </p>
 <p align=middle>
   <img src="../SGD.png" width=600>
@@ -99,7 +99,7 @@ Shape-Guided Diffusion is a paper I co-published as third author under Seth Park
 
 <br>
 <p align=middle>
-  <h2 id="sa">Surface Analysis</h2>
+  <h2 id="sa" align=middl>Surface Analysis</h2>
 </p>
 <p align=middle>
   <img src="../SA.png" width=400>
@@ -113,7 +113,7 @@ Surface Analysis is a program I made in C++ that interfaces with PyMol's python 
 
 <br>
 <p align=middle>
-  <h2 id="mole">Mole Game</h2>
+  <h2 id="mole" align=middl>Mole Game</h2>
 </p>
 <p align=middle>
   <img src="../molegame.png" width=200>
