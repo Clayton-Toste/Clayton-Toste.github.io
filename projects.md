@@ -51,7 +51,6 @@ Sandlocked is a puzzle game developed in Unity. Solve puzzles by controling a sa
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2843541" width="552" height="167"><a href="https://pragma-twice.itch.io/sandlocked">Sandlocked by Pragma-Twice, nikkudo, TheCoolGameDev, jinjk, MillerHollinger</a></iframe></p>
 
-<div class="column2">
 <p align=middle>
   <h2 id="deadweight" align=middle><i>Dead Weight</i></h2>
 </p>
