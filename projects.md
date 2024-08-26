@@ -25,6 +25,7 @@ classes: wide
 <h2>Table Contents</h2>
 <ul>
   <li><a href="#sandlocked">Sandlocked</a></li>
+  <li><a href="#deadweight">Dead Weight</a></li>
   <li><a href="#anderson">Home for Anderson</a></li>
   <li><a href="#atherborne">Atherborne</a></li>
   <li><a href="#sanchari">Sanchari</a></li>
@@ -49,6 +50,19 @@ Sandlocked is a puzzle game developed in Unity. Solve puzzles by controling a sa
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2843541" width="552" height="167"><a href="https://pragma-twice.itch.io/sandlocked">Sandlocked by Pragma-Twice, nikkudo, TheCoolGameDev, jinjk, MillerHollinger</a></iframe></p>
+
+<div class="column2">
+<p align=middle>
+  <h2 id="deadweight" align=middle><i>Dead Weight</i></h2>
+</p>
+<p align=middle>
+  <img src="../deadweight.png" width=500>
+</p>
+<p align=middle>
+Dead Weight is top-down dungeon crawler game developed in Unity. Fight egyption themed enemies to stop your soul from being fed to a bird. The game uses a modifed version of the unity shadow caster for lighting.
+</p>
+<p align=middle>
+<iframe frameborder="0" src="https://itch.io/embed/2904360" width="552" height="167"><a href="https://pragma-twice.itch.io/dead-weight">Dead Weight by Pragma-Twice, sword0fkas, nikkudo, jinjk</a></iframe>
   
 <p align=middle>
   <h2 id="anderson" align=middle><i>Home for Anderson</i></h2>
