@@ -90,7 +90,7 @@ Aetherborne is an online trading card game made in Unity. Aetherborne has a uniq
   <img src="../gameplay3.png" width=500>
 </p>
 <p align=middle>
-Sanchari is a rythem\ game based on Indian mythology. The game features a system for creating song maps. 
+Sanchari is a rythem game based on Indian mythology. The game features a system for creating song maps. 
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2608498" width="552" height="167"><a href="https://pragma-twice.itch.io/sanchari">Sanchari by Pragma-Twice, jinjk, sword0fkas</a></iframe>
