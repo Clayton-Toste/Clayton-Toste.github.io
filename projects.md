@@ -46,7 +46,7 @@ classes: wide
   <img src="../gameplay2.png" width=500>
 </p>
 <p align=middle>
-Sandlocked is a puzzle game developed in Unity. Solve puzzles by controling a sand-moving drone and wrench weilding mechanic. The game features a custom sand physics engine using cellular automata and marching squares. Additionally, it implements a custom version of A* pathfinding that allows for finding the shortest path without adhering to a grid.
+Sandlocked is a puzzle game developed in Unity. Solve puzzles by controlling a sand-moving drone and wrench-wielding mechanic. The game features a custom sand physics engine using cellular automaton and marching squares. Additionally, it implements a custom version of A* pathfinding that allows for finding the shortest path without adhering to a grid.
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2843541" width="552" height="167"><a href="https://pragma-twice.itch.io/sandlocked">Sandlocked by Pragma-Twice, nikkudo, TheCoolGameDev, jinjk, MillerHollinger</a></iframe></p>
@@ -58,7 +58,7 @@ Sandlocked is a puzzle game developed in Unity. Solve puzzles by controling a sa
   <img src="../deadweight.png" width=500>
 </p>
 <p align=middle>
-Dead Weight is top-down dungeon crawler game developed in Unity. Fight egyption themed enemies to stop your soul from being fed to a bird. The game uses a modifed version of the unity shadow caster for lighting.
+Dead Weight is top-down dungeon crawler game developed in Unity. Fight Egyptian themed enemies to stop your soul from being fed to a bird. The game uses a modified version of the unity shadow caster for lighting.
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2904360" width="552" height="167"><a href="https://pragma-twice.itch.io/dead-weight">Dead Weight by Pragma-Twice, sword0fkas, nikkudo, jinjk</a></iframe>
@@ -80,7 +80,7 @@ Home for Anderson is a puzzle game made in Unity. Control multiple gems as you u
   <h2 id="aetherborne" align=middle><i>Aetherborne</i></h2>
 </p>
 <p align=middle>
-Aetherborne is an online trade card game made in Unity. Aetherborne has a unique hexgrid system for placing and moving creatures. The game use Mirror as a backend for networking and has an elegant system for creating new cards.
+Aetherborne is an online trading card game made in Unity. Aetherborne has a unique hexgrid system for placing and moving creatures. The game use Mirror as a backend for networking and has an elegant system for creating new cards.
 </p>
 
 <p align=middle>
@@ -90,7 +90,7 @@ Aetherborne is an online trade card game made in Unity. Aetherborne has a unique
   <img src="../gameplay3.png" width=500>
 </p>
 <p align=middle>
-Sanchari is a rythem game based on Indian mythology. Game features a system for creating song maps. 
+Sanchari is a rythem\ game based on Indian mythology. The game features a system for creating song maps. 
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/2608498" width="552" height="167"><a href="https://pragma-twice.itch.io/sanchari">Sanchari by Pragma-Twice, jinjk, sword0fkas</a></iframe>
@@ -102,7 +102,7 @@ Sanchari is a rythem game based on Indian mythology. Game features a system for 
   <img src="../pipegame.png" width=500>
 </p>
 <p align=middle>
-Pipe Game is a small highscore-based game made in unity for a one week game jam. Try to pipe the steam to the houses that need it before they blow up. Pipe Game feature the unity particles system.
+Pipe Game is a small highscore-based game made in unity for a one week game jam. Try to pipe the steam to the houses that need it before they blow up. Pipe Game features the unity particles system.
 </p>
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/PipeGame">Github</a>
@@ -130,7 +130,7 @@ Jello is a program made for CS184 that simulates jellow physics with crosshatchi
   <img src="../deblur.png" width=600>
 </p>
 <p align=middle>
-Deblurring Diffision is a technique I invented to improve current diffusion networks while working in the Gordon Lab at Stanford. It works by applying a filter to the noise in latent space to create a less blurry image
+Deblurred Diffusion is a technique I invented to improve current diffusion networks while working in the Gordon Lab at Stanford. It works by applying a filter to the noise in latent space to create a less blurry image
 </p>
 
 <br>
@@ -155,7 +155,7 @@ Shape-Guided Diffusion is a paper I co-published as third author with Seth Park 
   <img src="../SA.png" width=400>
 </p>
 <p align=middle>
-Surface Analysis is a program I made in C++ that interfaces with PyMol's python API to analyze patchs of hydrophobicity and charge of the surface proteins. Created for Ting Xu Lab.
+Surface Analysis is a program I made in C++ that interfaces with PyMol's python API to analyze patchs of hydrophobicity and charge of the surface of proteins. Created for Ting Xu Lab.
 </p>
 <p align=middle>
 <a href="https://github.com/Clayton-Toste/Surface-Anaysis/tree/master">Github</a>
