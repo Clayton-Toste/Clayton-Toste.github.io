@@ -10,4 +10,4 @@ permalink: /resume/
 }
 </style>
 
-<iframe src="https://docs.google.com/document/d/1UtxBwYcgUm21ZfGa0TFo0xZixmLcDT2hwXdmtSaiD7E/edit?embedded=true">Loading </iframe>
+<iframe src="https://docs.google.com/document/d/1UtxBwYcgUm21ZfGa0TFo0xZixmLcDT2hwXdmtSaiD7E/edit?embedded=true" width="700px" height="700px">Loading </iframe>
