@@ -32,10 +32,12 @@ classes: wide
 <p align=middle>
   <h2 id="splinerail" align=middle><i>Spline Rail</i></h2>
 </p>
-  
-<video controls width="50%" align=middle>
-  <source src="../splinerail.webm" type="video/webm" />
-</video>
+
+<p align=middle>
+  <video controls width="50%">
+    <source src="../splinerail.webm" type="video/webm" />
+  </video>
+</p>
 
 <p align=middle>
 Spline Rail is a scirpt I made for game I'm currently developing. It represents a grindable rail that follows a Catmull-rom spline. It allows for realtime editing throught Unity's Editor system. The scirpt also features cacheing spline information by using hashes to check for changes. 
