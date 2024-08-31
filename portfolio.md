@@ -40,7 +40,7 @@ classes: wide
 </p>
 
 <p align=middle>
-Spline Rail is a scirpt I made for game I'm currently developing. It represents a grindable rail that follows a Catmull-rom spline. It allows for realtime editing throught Unity's Editor system. The scirpt also features cacheing spline information by using hashes to check for changes. 
+Spline Rail is a scirpt I made for a game I'm currently developing. It represents a grindable rail that follows a Catmull-rom spline. It allows for realtime editing throught Unity's Editor system. The scirpt also features cacheing spline information by using hashes to check for changes. 
 </p>
 
 
