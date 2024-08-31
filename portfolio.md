@@ -33,7 +33,7 @@ classes: wide
   <h2 id="splinerail" align=middle><i>Spline Rail</i></h2>
 </p>
   
-<video controls width="250">
+<video controls width="50%">
   <source src="../splinerail.webm" type="video/webm" />
 </video>
 
