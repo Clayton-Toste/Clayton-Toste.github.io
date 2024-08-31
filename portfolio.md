@@ -190,17 +190,36 @@ public class SplineRail : MonoBehaviour, IRail
 
     void Update()
     {
-        int controlPointsHash = controlPoints.GetHashCode(),
+      CheckForUpdates()
+    }
+    
+    /// &#x3C;summary&#x3E;
+    /// Forces the rail to check for updates in it's structure.
+    /// &#x3C;/summary&#x3E;
+    public void CheckForUpdates()
+    {
+        int controlPointsHash = 0,
         stepSizeHash = stepLength.GetHashCode(),
         precisionHash = precision.GetHashCode(),
-        jointHash = joint.GetHashCode();
+        jointHash = 0;
 
+        foreach (Vector2 point in controlPoints)
+        {
+            controlPointsHash ^= point.GetHashCode();
+        }
+        foreach (Vector2 point in joint)
+        {
+            jointHash ^= point.GetHashCode();
+        }
+
+        if (this.jointHash != jointHash)
+        {
+            PreprocessJoint();
+        }
         if (this.controlPointsHash != controlPointsHash || this.stepSizeHash != stepSizeHash || this.precisionHash != precisionHash)
         {
             PreprocessSpline();
-            controlPointsHash = controlPoints.GetHashCode();
         }
-
         if (this.controlPointsHash != controlPointsHash || this.stepSizeHash != stepSizeHash || this.precisionHash != precisionHash || this.jointHash != jointHash)
         {
             UpdateMesh();
@@ -220,7 +239,6 @@ public class SplineRail : MonoBehaviour, IRail
         }
         if (this.jointHash != jointHash)
         {
-            PreprocessJoint();
             this.jointHash = jointHash;
         }
     }
@@ -514,10 +532,15 @@ public class SplineRailEditor : Editor
     {
         Handles.color = Color.blue;
         SplineRail rail = target as SplineRail;
-
-        for (int i = 0; i &#x3C; rail.controlPoints.Length; i++)
+        
+        EditorGUI.BeginChangeCheck();
+        for (int i = 0; i < rail.controlPoints.Length; i++)
         {
             rail.controlPoints[i] = rail.transform.InverseTransformPoint(Handles.PositionHandle(rail.transform.TransformPoint(rail.controlPoints[i]), Quaternion.identity));
+        }
+        if (EditorGUI.EndChangeCheck())
+        {
+            rail.CheckForUpdates();
         }
     }
 }
