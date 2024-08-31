@@ -515,14 +515,9 @@ public class SplineRailEditor : Editor
         Handles.color = Color.blue;
         SplineRail rail = target as SplineRail;
 
-        EditorGUI.BeginChangeCheck();
         for (int i = 0; i &#x3C; rail.controlPoints.Length; i++)
         {
             rail.controlPoints[i] = rail.transform.InverseTransformPoint(Handles.PositionHandle(rail.transform.TransformPoint(rail.controlPoints[i]), Quaternion.identity));
-        }
-        if (EditorGUI.EndChangeCheck())
-        {
-            rail.UpdateMesh();
         }
     }
 }
