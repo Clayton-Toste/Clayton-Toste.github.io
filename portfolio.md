@@ -30,12 +30,12 @@ classes: wide
 
 <div class="column2">
 <p align=middle>
-  <h2 id="splinerail" align=middle><i>Sandlocked</i></h2>
+  <h2 id="splinerail" align=middle><i>Spline Rail</i></h2>
 </p>
 
 <pre>
 <code>
-<object data="splinerail.cs"> </object>
+<object data="https://raw.githubusercontent.com/Clayton-Toste/Clayton-Toste.github.io/master/splinerail.cs"> </object>
 </code>
 </pre>
 </div>
