@@ -11,6 +11,8 @@ layout: page
   <br>
 <a align=middle href="/education">Education</a>
   <br>
+<a align=middle href="/portfolio">Portfolio</a>
+  <br>
 <a align=middle href="/projects">Projects</a>
   <br>
 <a align=middle href="/resume">Resume</a>
