@@ -33,6 +33,15 @@ classes: wide
   <h2 id="splinerail" align=middle><i>Spline Rail</i></h2>
 </p>
   
+<video controls width="250">
+  <source src="../splinerail.webm" type="video/webm" />
+</video>
+
+<p align=middle>
+Spline Rail is a scirpt I made for game I'm currently developing. It represents a grindable rail that follows a Catmull-rom spline. It allows for realtime editing throught Unity's Editor system. The scirpt also features cacheing spline information by using hashes to check for changes. 
+</p>
+
+
 <details>
   <summary> Code </summary>
   <pre>
@@ -266,34 +275,33 @@ public class SplineRail : MonoBehaviour, IRail
     /// &#x3C;/summary&#x3E;
     public void UpdateMesh()
     {
-        PreprocessSpline();
-
-        if (spline.Count == 0)
+        if (lines.Count == 0)
         {
             return;
         }
 
-        List&#x3C;Vector3&#x3E; vertices = new();
-        List&#x3C;int&#x3E; triangles = new();
-
-        Quaternion direction = SplineRotation(0.0f);
-        Vector3 displacement = GetControlPoint(0);
-        for (int i = 0; i &#x3C; joint.Count(); i++)
-        {
-            vertices.Add(direction * (Vector3)joint[i] + displacement);
-        }
-
-        vertices.Add(direction * (Vector3)joint[0] + displacement);
-        for (int i = 1; i &#x3C; joint.Count(); i++)
-        {
-            vertices.Add(direction * (Vector3)joint[i] + displacement);
-            vertices.Add(direction * (Vector3)joint[i] + displacement);
-        }
-        vertices.Add(direction * (Vector3)joint[0] + displacement);
+        List<Vector3> vertices = new();
+        List<int> triangles = new();
+        List<Vector2> uv = new();
 
         foreach (Subline line in lines)
         {
-            for (int i = vertices.Count; i &#x3C; vertices.Count + 2 * joint.Count(); i += 2)
+            float t = line.Evaluate(0.0f).t;
+            Quaternion direction = SplineRotation(t);
+            Vector3 displacement = SplineDisplacement(t);
+            vertices.Add(direction * (Vector3)joint[0] + displacement);
+            uv.Add(new Vector2(0.0f, 0.0f));
+            for (int i = 1; i < joint.Count(); i++)
+            {
+                vertices.Add(direction * (Vector3)joint[i] + displacement);
+                uv.Add(new Vector2(0.0f, 1.0f));
+                vertices.Add(direction * (Vector3)joint[i] + displacement);
+                uv.Add(new Vector2(0.0f, 0.0f));
+            }
+            vertices.Add(direction * (Vector3)joint[0] + displacement);
+            uv.Add(new Vector2(0.0f, 1.0f));
+
+            for (int i = vertices.Count; i < vertices.Count + 2 * joint.Count(); i += 2)
             {
                 triangles.Add(i - 8);
                 triangles.Add(i - 7);
@@ -304,27 +312,23 @@ public class SplineRail : MonoBehaviour, IRail
                 triangles.Add(i - 8);
             }
 
-            float t = line.Evaluate(1.0f).t;
-
+            t = line.Evaluate(1.0f).t;
             direction = SplineRotation(t);
             displacement = SplineDisplacement(t);
             vertices.Add(direction * (Vector3)joint[0] + displacement);
-            for (int i = 1; i &#x3C; joint.Count(); i++)
+            uv.Add(new Vector2(1.0f, 0.0f));
+            for (int i = 1; i < joint.Count(); i++)
             {
                 vertices.Add(direction * (Vector3)joint[i] + displacement);
+                uv.Add(new Vector2(1.0f, 1.0f));
                 vertices.Add(direction * (Vector3)joint[i] + displacement);
+                uv.Add(new Vector2(1.0f, 0.0f));
             }
             vertices.Add(direction * (Vector3)joint[0] + displacement);
+            uv.Add(new Vector2(1.0f, 1.0f));
         }
 
-        direction = SplineRotation(1.0f);
-        displacement = controlPoints[^1];
-        for (int i = 0; i &#x3C; joint.Count(); i++)
-        {
-            vertices.Add(direction * (Vector3)joint[i] + displacement);
-        }
-
-        Mesh mesh = new() { vertices = vertices.ToArray(), triangles = triangles.ToArray() };
+        Mesh mesh = new() { vertices = vertices.ToArray(), triangles = triangles.ToArray(), uv = uv.ToArray()};
         mesh.Optimize();
         mesh.RecalculateNormals();
         TryGetComponent(out MeshFilter filter);
