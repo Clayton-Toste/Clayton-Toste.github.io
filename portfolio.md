@@ -40,7 +40,7 @@ classes: wide
 </p>
 
 <p align=middle>
-Spline Rail is a scirpt I made for a game I'm currently developing. It calculates a spline from control points and renders it to a 3D mesh. It also provides functions for fetching information on the rail to allow for riding. Additionally It allows for realtime editing through Unity's Editor system. The script also features caching spline information by using hashes to check for changes.
+SplineRail.cs is a 3D spline renderer written for Unity. It calculates a spline from control points and renders it to a 3D mesh. It then exposes various functions for retrieving information about the spline, which is accelerated through a hash-based cache system. It additionally includes a suite of functions that allow characters to ride the rail, and supports real-time editing through the Unity Editor.
 </p>
 
 
@@ -56,11 +56,14 @@ using UnityEditor;
 using UnityEngine;
 
 /// &#x3C;summary&#x3E;
-/// Represents a grindable rail along a Catmull-Rom spline.
+/// Calculates a spline from control points and renders it to a mesh. Provides functions for fetching information on the rail to allow for riding. 
 /// &#x3C;/summary&#x3E;
 [ExecuteInEditMode, RequireComponent(typeof(MeshFilter)), RequireComponent(typeof(MeshCollider))]
 public class SplineRail : MonoBehaviour, IRail
 {
+    /// &#x3C;summary&#x3E;
+    /// Represents part of the spline between two control points.
+    /// &#x3C;/summary&#x3E;
     struct Subcurve
     {
         Vector3[] factors;
@@ -95,6 +98,9 @@ public class SplineRail : MonoBehaviour, IRail
         }
     }
 
+    /// &#x3C;summary&#x3E;
+    /// Represents a line between two points on the spline.
+    /// &#x3C;/summary&#x3E;
     struct Subline
     {
         Vector3 start, path;
