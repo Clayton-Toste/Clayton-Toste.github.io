@@ -40,7 +40,7 @@ classes: wide
 </p>
 
 <p align=middle>
-Spline Rail is a scirpt I made for a game I'm currently developing. It represents a grindable rail that follows a Catmull-rom spline. It allows for realtime editing throught Unity's Editor system. The scirpt also features cacheing spline information by using hashes to check for changes. 
+Spline Rail is a scirpt I made for a game I'm currently developing. It calculates a spline from control points and renders it to a 3D mesh. It also provides functions for fetching information on the rail to allow for riding. Additionally It allows for realtime editing through Unity's Editor system. The script also features caching spline information by using hashes to check for changes.
 </p>
 
 
@@ -247,21 +247,24 @@ public class SplineRail : MonoBehaviour, IRail
     {
         if (precision == 0 || stepLength == 0)
         {
-            throw new ArgumentException(&#x22;Precision and stepLength must not be 0.&#x22;);
+            throw new ArgumentException("Precision and stepLength must not be 0.");
         }
 
+        // Construct subcurves from control points
         spline.Clear();
 
-        for (int i = 0; i + 1 &#x3C; controlPoints.Length; i++)
+        for (int i = 0; i + 1 < controlPoints.Length; i++)
         {
             spline.Add(new(GetControlPoint(i - 1), GetControlPoint(i), GetControlPoint(i + 1), GetControlPoint(i + 2)));
         }
 
+        // Construct sublines between evenly spaced intervals.
         lines.Clear();
 
         float t = 0.0f;
 
-        for (int i = 0; i &#x3C; precision; i++)
+        // Increase t by enough to move stepLength along the curve
+        for (int i = 0; i < precision; i++)
         {
             t += stepLength / (precision * SplineVelocity(t).magnitude);
             t = Mathf.Clamp(t, 0.0f, 1.0f);
@@ -269,9 +272,10 @@ public class SplineRail : MonoBehaviour, IRail
 
         lines.Add(new(SplineDisplacement(0.0f), 0.0f, SplineDisplacement(t), t));
 
-        while (t &#x3C; 1.0f)
+        while (t < 1.0f)
         {
-            for (int i = 0; i &#x3C; precision; i++)
+            // Increase t by enough to move stepLength along the curve
+            for (int i = 0; i < precision; i++)
             {
                 t += stepLength / (precision * SplineVelocity(t).magnitude);
                 t = Mathf.Clamp(t, 0.0f, 1.0f);
@@ -283,6 +287,7 @@ public class SplineRail : MonoBehaviour, IRail
 
     void PreprocessJoint()
     {
+        // Find bounding box of joint
         jointBounds = new();
         foreach (Vector3 point in joint)
         {
@@ -309,6 +314,7 @@ public class SplineRail : MonoBehaviour, IRail
             float t = line.Evaluate(0.0f).t;
             Quaternion direction = SplineRotation(t);
             Vector3 displacement = SplineDisplacement(t);
+            // Add vertices and UV for joint
             vertices.Add(direction * (Vector3)joint[0] + displacement);
             uv.Add(new Vector2(0.0f, 0.0f));
             for (int i = 1; i < joint.Count(); i++)
@@ -321,6 +327,7 @@ public class SplineRail : MonoBehaviour, IRail
             vertices.Add(direction * (Vector3)joint[0] + displacement);
             uv.Add(new Vector2(0.0f, 1.0f));
 
+            // Add connecting faces
             for (int i = vertices.Count; i < vertices.Count + 2 * joint.Count(); i += 2)
             {
                 triangles.Add(i - 8);
@@ -335,6 +342,7 @@ public class SplineRail : MonoBehaviour, IRail
             t = line.Evaluate(1.0f).t;
             direction = SplineRotation(t);
             displacement = SplineDisplacement(t);
+            // Add vertices and UV for joint
             vertices.Add(direction * (Vector3)joint[0] + displacement);
             uv.Add(new Vector2(1.0f, 0.0f));
             for (int i = 1; i < joint.Count(); i++)
