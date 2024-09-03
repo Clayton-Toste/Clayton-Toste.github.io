@@ -80,6 +80,9 @@ Home for Anderson is a puzzle game made in Unity. Control multiple gems as you u
   <h2 id="aetherborne" align=middle><i>Aetherborne</i></h2>
 </p>
 <p align=middle>
+  <img src="../atherborne.png" width=500>
+</p>
+<p align=middle>
 Aetherborne is an online trading card game made in Unity. Aetherborne has a unique hexgrid system for placing and moving creatures. The game use Mirror as a backend for networking and has an elegant system for creating new cards.
 </p>
 
