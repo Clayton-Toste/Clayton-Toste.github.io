@@ -24,6 +24,8 @@ classes: wide
 <div class="column1">
 <h2>Table Contents</h2>
 <ul>
+  <li><a href="#grabby">The Grabby Force</a></li>
+  <li><a href="#grapple">Grapple Paws</a></li>
   <li><a href="#sandlocked">Sandlocked</a></li>
   <li><a href="#deadweight">Dead Weight</a></li>
   <li><a href="#anderson">Home for Anderson</a></li>
@@ -39,6 +41,30 @@ classes: wide
 </div>
 
 <div class="column2">
+<p align=middle>
+  <h2 id="grabby" align=middle><i>The Grabby Force</i></h2>
+</p>
+<p align=middle>
+  <img src="../grabby.png" width=500>
+</p>
+<p align=middle>
+The Grabby Force is a puzzle platformer game developed in Unity. Play as two bumbling scientists in this 2D co-op platformer, where you and another player have to repair the lab’s power source after a lab experiment gone wrong. The game features tightly tuned player physics and blood staining system. The game is currently being rated for Winter Melon Jam 2024.
+</p>
+<p align=middle>
+<iframe frameborder="0" src="https://itch.io/embed/3207789" width="552" height="167"><a href="https://pragma-twice.itch.io/the-grabby-force">The Grabby Force by Pragma-Twice, sword0fkas, Yuio, Jiayunyyy</a></iframe>
+
+<p align=middle>
+  <h2 id="grapple" align=middle><i>Grapple Paws</i></h2>
+</p>
+<p align=middle>
+  <img src="../grapple.png" width=500>
+</p>
+<p align=middle>
+Grapple Paws is a platformer game developed in Unity. Explore the terrain, swing with the hook and retrieve the gifts. The game ranked fourth place in Christmas Jame Gam 2024.
+</p>
+<p align=middle>
+<iframe frameborder="0" src="https://itch.io/embed/3199964" width="552" height="167"><a href="https://xalouwu.itch.io/grapple-paws">Grapple Paws by Xalouwu, Blirr, Lollypop, Cult Downtown, procrascat, Paul Auxerre, Cleaver_Music, Pragma-Twice, JeckisAudio, CurtMaGurt, DaniaMania, Nlfuser</a></iframe>
+
 <p align=middle>
   <h2 id="sandlocked" align=middle><i>Sandlocked</i></h2>
 </p>
