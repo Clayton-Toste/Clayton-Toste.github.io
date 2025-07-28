@@ -7,7 +7,7 @@ layout: page
 <img src="me.png" width=300>
 </p>
 <p align=middle>
-  Hi, I'm Mirinae Toste (Legal Name: Clayton Toste; She/her), currently I'm a senior at UC Berkeley working towards my Computer Science BS. I have experience in Computer Graphics, Computer Networking, Game Design and Development and Machine Learning. I am currently employment and research opportunies.
+  Hi, I'm Mirinae Toste (Legal Name: Clayton Toste; she/her). I'm currently a senior at UC Berkeley pursuing a B.S. in Computer Science. I have experience in computer graphics, computer networking, game design and development, and machine learning. I'm actively seeking employment and research opportunities.
   <br>
 <a align=middle href="/education">Education</a>
   <br>
