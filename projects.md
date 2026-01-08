@@ -24,6 +24,7 @@ classes: wide
 <div class="column1">
 <h2>Table Contents</h2>
 <ul>
+  <li><a href="#mask">The Phantom of the Mask</a></li>
   <li><a href="#grabby">The Grabby Force</a></li>
   <li><a href="#grapple">Grapple Paws</a></li>
   <li><a href="#sandlocked">Sandlocked</a></li>
@@ -41,6 +42,19 @@ classes: wide
 </div>
 
 <div class="column2">
+
+<p align=middle>
+  <h2 id="mask" align=middle><i>The Phantom of the Mask</i></h2>
+</p>
+<p align=middle>
+  <img src="../mask.png" width=500>
+</p>
+<p align=middle>
+The Phantom of the Mask is a puzzle platformer game developed in Unity. The game features an "image masking" feature that allows parts of the level to be copied over to different locations. The game is currently being rated for Winter Melon Jam 2025.
+</p>
+<p align=middle>
+<iframe frameborder="0" src="https://itch.io/embed/4156557" width="552" height="167"><a href="https://cattiepie007.itch.io/the-phantom-of-the-mask">The Phantom of the Mask by CattiePie007, Suzha, Pragma-Twice, ierlix</a></iframe>
+
 <p align=middle>
   <h2 id="grabby" align=middle><i>The Grabby Force</i></h2>
 </p>
@@ -48,7 +62,7 @@ classes: wide
   <img src="../grabby.png" width=500>
 </p>
 <p align=middle>
-The Grabby Force is a puzzle platformer game developed in Unity. Play as two bumbling scientists in this 2D co-op platformer, where you and another player have to repair the lab’s power source after a lab experiment gone wrong. The game features tightly tuned player physics and blood staining system. The game is currently being rated for Winter Melon Jam 2024.
+The Grabby Force is a puzzle platformer game developed in Unity. Play as two bumbling scientists in this 2D co-op platformer, where you and another player have to repair the lab’s power source after a lab experiment gone wrong. The game features tightly tuned player physics and blood staining system. The game is ranked 15th for Winter Melon Jam 2024.
 </p>
 <p align=middle>
 <iframe frameborder="0" src="https://itch.io/embed/3207789" width="552" height="167"><a href="https://pragma-twice.itch.io/the-grabby-force">The Grabby Force by Pragma-Twice, sword0fkas, Yuio, Jiayunyyy</a></iframe>
